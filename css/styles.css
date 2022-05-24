@@ -1,0 +1,50 @@
+/*Variables*/
+:root {
+  --white: #fff;
+  --ice: #f0f0f0;
+  --black: #000;
+  --purple: #7766cd;
+  --dark-purple: #402f93;
+  --primary-color: rgb(255, 255, 255);
+  --gray: rgb(94, 94, 94);
+  --light-gray: #c4c4c4;
+  --light-gray: #a6b3bd;
+  --glass: rgba(200, 200, 200, 0.4);
+  --dark-glass: rgba(114, 114, 114, 0.5);
+  --dark-green: #15222b;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+#space-game {
+  width: 800px;
+  height: 400px;
+  border: 1px solid var(--black);
+  margin-left: 17%;
+  margin-top: 5%;
+}
