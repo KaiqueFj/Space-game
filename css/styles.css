@@ -29,11 +29,104 @@
   box-sizing: border-box;
 }
 
-
-#space-game {
-
-  border: 1px solid var(--black);
-  margin-left: 17%;
-  margin-top: 5%;
+body {
+  background-color: var(--black);
+  background-image: url(../images/space.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+.game-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 80%;
+}
+
+.game-space{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ padding: 2rem;}
+
+.game-menu {
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ border-radius: 20px;
+ width: 50vw;
+ margin-left: 26%;
+ margin-top: 12rem;
+
+}
+
+#Start-container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+padding: 2rem;
+background: var(--glass);
+
+}
+
+#GameOver-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ padding: 2rem;
+ background: var(--glass);
+
+}
+
+#Start-container span {
+  font-family: var(--font);
+  font-size: 2.7em;
+  text-align: center;
+  color: var(--white);
+  border-radius: 15px;
+  padding: 0.9rem;
+}
+
+#Start-container h2,
+#GameOver-Container h2 {
+  font-family: var(--font);
+  font-size: 3.3em;
+  text-align: center;
+  color: var(--white);
+  border-radius: 15px;
+  padding: 0.9rem;
+}
+
+#Start-container a,
+#GameOver-Container a {
+  font-family: var(--font);
+  font-size: 2em;
+  color: var(--white);
+  border: 2px solid white;
+  border-radius: 15px;
+  width: 56%;
+  text-align: center;
+  justify-content: center;
+  padding: 1.6rem;
+  margin-left: 21%;
+}
+
+#Start-container a:hover,
+#GameOver-Container a:hover {
+  background-color: var(--glass);
+}
+
+@media (max-width: 768px) {
+  .game-menu {
+   width: 50vw;
+   height: 100vh;
+   margin-left: 26%;
+   margin-top: 12rem;
+  
+  }
+
+
+  
+  
+}
