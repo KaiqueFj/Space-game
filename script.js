@@ -8,10 +8,10 @@ let fps = 2;
 let activeScreen = {};
 
 let image = new Image();
-image.src = "./images/ship-up.png";
+image.src = "images/ship-up.png";
 
 let asteroidImage = new Image();
-asteroidImage.src = "./images/asteroidPng.png";
+asteroidImage.src = "images/asteroidPng.png";
 
 const globals = {};
 
@@ -61,7 +61,7 @@ function move(key) {
       } else {
         Nave.ySpaceship = 0;
       }
-      image.src = "./images/ship-up.png";
+      image.src = "images/ship-up.png";
       break;
     case 40:
       if (Nave.ySpaceship < canvas.height - Nave.step - Nave.heightSpaceship) {
@@ -69,7 +69,7 @@ function move(key) {
       } else {
         Nave.ySpaceship = canvas.height - Nave.heightSpaceship;
       }
-      image.src = "./images/ship-down.png";
+      image.src = "images/ship-down.png";
       break;
     case 37:
       if (Nave.xSpaceship > Nave.step) {
@@ -77,7 +77,7 @@ function move(key) {
       } else {
         Nave.xSpaceship = 0;
       }
-      image.src = "./images/ship-left.png";
+      image.src = "images/ship-left.png";
       break;
     case 39:
       if (Nave.xSpaceship < canvas.width - Nave.step - Nave.widthSpaceship) {
@@ -85,7 +85,7 @@ function move(key) {
       } else {
         Nave.xSpaceship = canvas.width - Nave.widthSpaceship;
       }
-      image.src = "./images/ship-right.png";
+      image.src = "images/ship-right.png";
       break;
   }
 }
