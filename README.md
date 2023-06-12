@@ -21,8 +21,8 @@ $ git clone https://github.com/KaiqueFj/Space-game.git
 # 💻 how to access?
 
 ```
-# Visit the website to quick test the calculator
-$ https://kaiquefj.github.io/IOS---Calculator/
+# Visit the website to quick test the space-game
+$ https://kaiquefj.github.io/Space-game/
 
 
 ```
